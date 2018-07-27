@@ -1,0 +1,27 @@
+{
+    "name": "wildside/mailguneu",
+    "description": "Provides a replacement MailServiceProvider in Laravel which requires setting the full Mailgun base URL.",
+    "license": "MIT",
+    "keywords": [
+        "laravel",
+        "mailgun",
+        "eu",
+        "gdpr"
+    ],
+    "authors": [
+        {
+            "name": "WildSide",
+            "email": "hello@wildside.uk",
+            "homepage": "https://wildside.uk"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "illuminate/support": "5.0.*|5.1.*|5.2.*|5.3.*|5.4.*|5.5.*|5.6.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Wildside\\MailgunEu\\": "src"
+        }
+    }
+}
